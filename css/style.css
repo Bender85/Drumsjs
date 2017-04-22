@@ -1,8 +1,14 @@
 .keys {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 15px;
+    width: 800px;
+    height: 800px;
+    margin: auto;
 }
 .key {
     border: 4px solid black;

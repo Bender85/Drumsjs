@@ -27,5 +27,9 @@
     keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
     window.addEventListener('keydown', playSound);
+    // window.addEventListener("touchstart", playSound);
+    // window.addEventListener("touchend", playSound);
+    // window.addEventListener("touchcancel", playSound);
+    // window.addEventListener("touchmove", playSound);
 
 })();
